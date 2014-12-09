@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Winamp4Chrome",
+  "version": "1.0",
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "images/48.png",
+    "default_popup": "winamp2-js/index.html"
+  },
+  "icons": {
+    "32": "images/32.png",
+    "48": "images/48.png",
+    "64": "images/64.png",
+    "128": "images/128.png"
+  }
+}
